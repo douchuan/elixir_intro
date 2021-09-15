@@ -24,3 +24,6 @@ issues-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# demo executable package
+issues/issues
