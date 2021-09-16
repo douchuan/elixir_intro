@@ -6,12 +6,12 @@
 - [IoT](https://www.nerves-project.org/)
 
 
-### books
+### Books
 
 - [Programming Elixir, Dave Thomas](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/ref=sr_1_4?dchild=1&keywords=elixir&qid=1631671759&s=books&sr=1-4)
 - [Programming Erlang: Software for a Concurrent World (Pragmatic Programmers) Second Edition](https://www.amazon.com/Programming-Erlang-Concurrent-Pragmatic-Programmers/dp/193778553X)
 
-### docs & 3rd & extends
+### Docs & 3rd & Extends
 
 - [std](https://elixir-lang.org/docs.html)
 - [erlang](https://www.erlang.org/docs)
