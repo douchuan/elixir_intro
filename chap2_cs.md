@@ -216,6 +216,23 @@ left <> right   # concat string/binary
 left =~ right   # regexp
 ```
 
+### Boolean operators
+
+As a rule of thumb, use *and*, *or* and *not* when you are expecting booleans. If any of the arguments are non-boolean, use *&&*, *||* and *!*.
+
+
+```
+iex(18)> true and true
+true
+iex(19)> false or is_atom(:example)
+true
+iex(18)> 1 and true
+** (BadBooleanError) expected a boolean on left-side of "and", got: 1
+
+iex(20)> 1 && true
+true
+```
+
 Modules
 -------
 
@@ -470,6 +487,17 @@ l |> flatten()
 l |> flatten(tail)
 ```
 
+```elixir
+# This is fast as we only need to traverse [0] to prepend to list
+iex> [0] ++ list
+[0, 1, 2, 3]
+
+# This is slow as we need to traverse list to append 4
+iex> list ++ [4]
+[1, 2, 3, 4]
+
+```
+
 Also see [Enum](#enum).
 
 
@@ -534,6 +562,16 @@ t |> elem(1)    # like tuple[1]
 t |> put_elem(index, value)
 t |> tuple_size()
 ```
+
+```
+iex(21)> tuple = {:a, :b, :c, :d}
+{:a, :b, :c, :d}
+iex(22)> put_elem(tuple, 2, :e)
+{:a, :b, :e, :d}
+
+```
+
+When you update a tuple, all entries are shared between the old and the new tuple, except for the entry that has been replaced. In other words, tuples and lists in Elixir are capable of sharing their contents. This reduces the amount of memory allocation the language needs to perform and is only possible thanks to the immutable semantics of the language.
 
 ### Keyword lists
 

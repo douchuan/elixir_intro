@@ -3,12 +3,15 @@
 
 Elixir guide, help you get up to speed.
 
-chap2_cheatsheets.md copy from [cheatsheets](https://github.com/rstacruz/cheatsheets).
+chap2_cs.md copy from [cheatsheets](https://github.com/rstacruz/cheatsheets).
+chap3_genserver_cs.md copy from [here](https://elixir-lang.org/cheatsheets/gen-server.pdf).
 
 ### issues
 
 Demo show organizing a project .
+Explained in [Programming Elixir, Dave Thomas](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/ref=sr_1_4?dchild=1&keywords=elixir&qid=1631671759&s=books&sr=1-4)
 
+- test
 - Use External Libraries
 - package
 
@@ -22,6 +25,7 @@ $./issues dynamo dynamo 3
 ### sequence
 
 Demo show OTP Application .
+Explained in [Programming Elixir, Dave Thomas](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/ref=sr_1_4?dchild=1&keywords=elixir&qid=1631671759&s=books&sr=1-4)
 
 - Server
 - Supervisor
@@ -48,3 +52,9 @@ Demo show Elixir task that runs in the background.
 $elixir misc/task.exs
 
 ```
+
+### kv
+
+Yet another demo show OTP Application .
+Explained in [Mix and OTP](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
+

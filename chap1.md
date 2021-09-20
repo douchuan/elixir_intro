@@ -63,10 +63,16 @@ $ git commit -m "Initial commit of new project"
 # 3, run tests
 $ mix test
 
-# 4, format
+# 4, dev life-cycle
+$ mix compile
+# Trying out latest changes from an iex session.
+$ iex -S mix
+iex > recompile()
+
+# 5, format
 # mix format
 
-# 5, package our program
+# 6, package our program
 $ mix escript.build
 
 ```
