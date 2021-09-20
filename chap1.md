@@ -106,3 +106,16 @@ Ref to [Programming Elixir, Dave Thomas](https://www.amazon.com/Programming-Elix
 
 Ref to [Programming Elixir, Dave Thomas](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/ref=sr_1_4?dchild=1&keywords=elixir&qid=1631671759&s=books&sr=1-4), Chapter 13 "Organizing a Project",
 "Task: Add Some Logging".
+
+### Observer tool
+
+A GUI should pop-up containing all sorts of information about our system, from general statistics to load charts as well as a list of all running processes and applications.
+
+```
+# start up kv demo
+$ cd kv
+$ iex -S mix
+
+iex(1)> :observer.start
+```
+
