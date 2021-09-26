@@ -53,8 +53,13 @@ $elixir misc/task.exs
 
 ```
 
-### kv
+### kv_umbrella
 
 Yet another demo show OTP Application .
 Explained in [Mix and OTP](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)
+
+- Observer tool
+- umbrella project
+- Task & Task.Supervisor
+- distributed tasks & tests
 
