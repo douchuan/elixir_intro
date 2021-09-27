@@ -3,8 +3,8 @@
 
 Elixir guide, help you get up to speed.
 
-chap2_cs.md copy from [cheatsheets](https://github.com/rstacruz/cheatsheets).
-chap3_genserver_cs.md copy from [here](https://elixir-lang.org/cheatsheets/gen-server.pdf).
+chap2_cheatsheets.md [copy from](https://github.com/rstacruz/cheatsheets).
+res/genserver.md [copy from](https://elixir-lang.org/cheatsheets/gen-server.pdf).
 
 ### issues
 

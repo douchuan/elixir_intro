@@ -3,6 +3,7 @@
 
 - [José Valim created Elixir in 2012](https://github.com/elixir-lang/elixir)
 - [Phoenix Framework](https://www.phoenixframework.org/)
+- [Ecto](https://hexdocs.pm/ecto/Ecto.html)
 - [IoT](https://www.nerves-project.org/)
 
 
@@ -10,6 +11,8 @@
 
 - [Programming Elixir, Dave Thomas](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/ref=sr_1_4?dchild=1&keywords=elixir&qid=1631671759&s=books&sr=1-4)
 - [Programming Erlang: Software for a Concurrent World (Pragmatic Programmers) Second Edition](https://www.amazon.com/Programming-Erlang-Concurrent-Pragmatic-Programmers/dp/193778553X)
+- [Programming Phoenix](https://www.amazon.com/Programming-Phoenix-1-4-Productive-Reliable-ebook/dp/B084NV65T8/ref=sr_1_1?dchild=1&keywords=programming+phoenix&qid=1632720925&sr=8-1)
+- [Metaprogramming Elixir](https://www.amazon.com/Metaprogramming-Elixir-Write-Less-Code/dp/1680500414/ref=sr_1_2?dchild=1&keywords=metaprogramming+elixir&qid=1632721012&sr=8-2)
 - [Getting started guide](https://elixir-lang.org/getting-started/introduction.html)
 - [Mix and OTP guide](https://elixir-lang.org/getting-started/introduction.html)
 - [Meta-programming guide](https://elixir-lang.org/getting-started/introduction.html)
