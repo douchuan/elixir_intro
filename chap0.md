@@ -7,6 +7,12 @@
 - [IoT](https://www.nerves-project.org/)
 
 
+### Phoenix
+
+- [Open Web Application Security Project(OWASP)](https://github.com/OWASP/CheatSheetSeries)
+- [Ecto](https://hexdocs.pm/ecto)
+- [Plug](https://hexdocs.pm/plug)
+
 ### Books
 
 - [Programming Elixir, Dave Thomas](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/ref=sr_1_4?dchild=1&keywords=elixir&qid=1631671759&s=books&sr=1-4)
