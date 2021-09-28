@@ -2,26 +2,27 @@
 ### Ecological
 
 - [José Valim created Elixir in 2012](https://github.com/elixir-lang/elixir)
-- [Phoenix Framework](https://www.phoenixframework.org/)
-- [Ecto](https://hexdocs.pm/ecto/Ecto.html)
 - [IoT](https://www.nerves-project.org/)
+- Web
+	- [Phoenix](https://www.phoenixframework.org/)  
+	- [Ecto](https://hexdocs.pm/ecto/Ecto.html), a language integrated query and database wrapper
+	- [Plug](https://hexdocs.pm/plug), a specification and conveniences for composable modules in between web applications
+	- [Open Web Application Security Project(OWASP)](https://github.com/OWASP/CheatSheetSeries)
 
-
-### Phoenix
-
-- [Open Web Application Security Project(OWASP)](https://github.com/OWASP/CheatSheetSeries)
-- [Ecto](https://hexdocs.pm/ecto)
-- [Plug](https://hexdocs.pm/plug)
 
 ### Books
 
-- [Programming Elixir, Dave Thomas](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/ref=sr_1_4?dchild=1&keywords=elixir&qid=1631671759&s=books&sr=1-4)
-- [Programming Erlang: Software for a Concurrent World (Pragmatic Programmers) Second Edition](https://www.amazon.com/Programming-Erlang-Concurrent-Pragmatic-Programmers/dp/193778553X)
-- [Programming Phoenix](https://www.amazon.com/Programming-Phoenix-1-4-Productive-Reliable-ebook/dp/B084NV65T8/ref=sr_1_1?dchild=1&keywords=programming+phoenix&qid=1632720925&sr=8-1)
-- [Metaprogramming Elixir](https://www.amazon.com/Metaprogramming-Elixir-Write-Less-Code/dp/1680500414/ref=sr_1_2?dchild=1&keywords=metaprogramming+elixir&qid=1632721012&sr=8-2)
-- [Getting started guide](https://elixir-lang.org/getting-started/introduction.html)
-- [Mix and OTP guide](https://elixir-lang.org/getting-started/introduction.html)
-- [Meta-programming guide](https://elixir-lang.org/getting-started/introduction.html)
+- Basic
+	- [Programming Elixir, Dave Thomas](https://www.amazon.com/Programming-Elixir-1-6-Functional-Concurrent/dp/1680502999/ref=sr_1_4?dchild=1&keywords=elixir&qid=1631671759&s=books&sr=1-4)
+	- [Programming Erlang: Software for a Concurrent World (Pragmatic Programmers) Second Edition](https://www.amazon.com/Programming-Erlang-Concurrent-Pragmatic-Programmers/dp/193778553X)
+	- [Getting started guide](https://elixir-lang.org/getting-started/introduction.html)
+	- [Mix and OTP guide](https://elixir-lang.org/getting-started/introduction.html)
+	- [Meta-programming guide](https://elixir-lang.org/getting-started/introduction.html)
+- Web
+	- [Programming Phoenix](https://www.amazon.com/Programming-Phoenix-1-4-Productive-Reliable-ebook/dp/B084NV65T8/ref=sr_1_1?dchild=1&keywords=programming+phoenix&qid=1632720925&sr=8-1)
+- Macro
+	- [Metaprogramming Elixir](https://www.amazon.com/Metaprogramming-Elixir-Write-Less-Code/dp/1680500414/ref=sr_1_2?dchild=1&keywords=metaprogramming+elixir&qid=1632721012&sr=8-2)
+
 
 ### Docs & 3rd & Extends
 
@@ -45,7 +46,9 @@ If all else fails, Google and GitHub are your friends. Search for terms such as 
 - vscode-elixir
 
 
-### [elixir-lang Overview]((https://github.com/elixir-lang/elixir))
+### [Project Overview]((https://github.com/elixir-lang/elixir))
+
+#### Elixir Lang
 
 - elixir - Elixir's kernel and standard library
 - eex - EEx is the template engine that allows you to embed Elixir
@@ -60,6 +63,25 @@ If all else fails, Google and GitHub are your friends. Search for terms such as 
 | Erlang | 51 | 10369 |
 | SUM | 605 | 137971 |
 
+#### [Phoenix](https://www.phoenixframework.org/)
 
+- Ecto - a language integrated query and database wrapper
+- ExUnit - Elixir's built-in test framework
+- Gettext - Internationalization and localization through gettext
+- Phoenix - the Phoenix web framework (these docs)
+- Phoenix PubSub - a distributed pub/sub system with presence support
+- Phoenix HTML - conveniences for working with HTML in Phoenix
+- Phoenix View - a set of functions for building Phoenix.View and working with template languages such as Elixir's own EEx
+- Phoenix LiveView - rich, real-time user experiences with server-rendered HTML
+- Phoenix LiveDashboard - real-time performance monitoring and debugging tools for Phoenix developers
+- Plug - a specification and conveniences for composable modules in between web applications
+- Swoosh - a library for composing, delivering and testing emails, also used by mix phx.gen.auth
 
+Telemetry Metrics - common interface for defining metrics based on Telemetry events
+
+| Language | files | code |
+|----------|-------|------|
+| Elixir | 272 | 27166 |
+| JSON | 9 | 17761 |
+| SUM | 365 | 57876 |
 
