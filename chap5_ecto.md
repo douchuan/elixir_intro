@@ -18,7 +18,6 @@ defp deps do
     {:postgrex, ">= 0.0.0"}
   ]
 end
-
 ```
 
 Ecto provides the common querying API, but we need the Postgrex driver installed too, as that is what Ecto uses to speak in terms a PostgreSQL database can understand. Ecto talks to its own Ecto.Adapters.Postgres module, which then in turn talks to the postgrex package to talk to PostgreSQL.
@@ -27,7 +26,6 @@ To install these dependencies, we will run this command:
 
 ```shell
 mix deps.get
-
 ```
 
 The Postgrex application will receive queries from Ecto and execute them against our database. If we didn't do this step, we wouldn't be able to do any querying at all.
@@ -98,9 +96,9 @@ mix ecto.create
 
 If the database has been created successfully, then you will see this message:
 
-```shell
-The database for Friends.Repo has been created.
-```
+
+* The database for Friends.Repo has been created. *
+
 
 NOTE: If you get an error, you should try changing your configuration in config/config.exs, as it may be an authentication error.
 
@@ -154,3 +152,34 @@ If we found out that we made a mistake in this migration, we could run mix ecto.
 
 We now have a table created in our database. The next step that we'll need to do is to create the schema.
 
+
+### Add new field
+
+edit file: user.ex, Rumbl.Repo.Migrations.CreateUsers
+
+```shell
+mix ecto.drop
+mix ecto.create
+mix ecto.migrate
+```
+
+```
+
+### Changeset
+
+```shell
+iex> recompile()
+iex> alias Rumbl.Accounts.User
+iex> changeset = User.changeset(%User{username: "eric", name: "Eric"}, %{}) 
+%Ecto.Changeset{changes: %{}, ...}
+iex> import Ecto.Changeset Ecto.Changeset
+iex> changeset = put_change(changeset, :username, "ericmj") 
+%Ecto.Changeset{changes: %{username: "ericmj"}, ...}
+iex> changeset.changes 
+%{username: "ericmj"}
+iex> get_change(changeset, :username) 
+"ericmj"
+```
+
+
+Now you have a more complete picture. Ecto is using changesets as a bucket to hold everything related to a database change, before and after persistence. You can use this information to do more than see what changed. Ecto lets you write code to do the minimal required database operation to update a record. If a particular change must be checked against a database constraint, such as a unique index, changesets do that. If Ecto can enforce validations without hitting the database, you can do that too. You’ll explore the broader changeset API, validations, and strategies as we build out the rest of our application.
